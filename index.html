@@ -43,6 +43,13 @@
 
  	
  <script>
+	 
+	 window.onload = function() {
+		 console.log("tagging");
+		 var CurrentLocation = "https://notAuthenticated";
+		 lpTag.newPage(CurrentLocation, {section: "felixdemo"});
+		 lpTag.sdes = lpTag.sdes||[];
+	 }
 	
  
 	
